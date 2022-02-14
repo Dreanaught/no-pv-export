@@ -4,15 +4,23 @@ Ein System-Design das hilft PV-Einspeisung ins Netz so gering wie möglich zu ha
 # Vorwort
 Die Energie-Produktion von PV-Generatoren(PV-Panele) ist gebunden an die Sonneneinstrahlung und daher mehr oder weniger vorhersagbar. Den erzeugten Strom so viel wie möglich selbst zu nutzen und daher den Export in das Netz zu minimiern ist Ziel dieses Repositories.
 
+# Lösungsansätze
+Um das zuvor genannte Ziel, die maxinale Reduktion des Exports, zu erreichen gibt es mehrere Lösungsansätze. Diese werden hier im folgenden Aufgelistet. Die Reihenfolge der Auflistung spiegelt nicht die prevalenz einzelner Lösungsansätze wieder. Hier erfolgt nur eine Auflistung von Ideen. Eine genauer Analyse der Vor- und Nachteile bzw. limitierender Faktoren erfolgt gesondert zu einem späteren Zeitpunkt.
+
+* Überschuss in Batterie speichern für Nachtstunden/als Backup
+* E-Auto mit Überschuss laden
+* Überschuss in thermische Energie wandeln(WP/Heizpatrone) und für Warmwasser/Heizung verwenden
+
 # Anforderungen
-Um das zuvor genannte Ziel, die maxinale Reduktion des Exports, zu erreichen sind die folgenden Anforderungen zu erfüllen. Die Reihenfolge der Anforderungen spiegelt nicht deren Wichtigkeit wieder.
+Unabhängig von der jeweiligen Lösung sind einige Dinge immer zu erfüllen. Hierzu zählen die folgenden Punkte. Dabei handelt es sich um grundlegende Anforderungen sowie "weiche" Anforderungen. Die Reihenfolge der Anforderungen spiegelt nicht deren Wichtigkeit wieder.
 
 1. Messen der aktuellen Produktion, des lokalen Verbrauchs und des Exports in das Netz
 2. Vorausberechnung des kurzzeit (1-Minute) und mittelzeits(1-Stunde) Export in das Netz
 3. Ansteuern "fester" Lasten (Ein/Aus)
 4. Regeln variabler Lasten (0-100%)
-5. Entgegennehmen von zu verbrauchenden Last-Werten in W bzw. kW über Schnittstelle-Extern
-6. Visualisierung der Mess-, Steuer- & Regelwerte aktuell und für die lanzeit Historie
+5. Entgegennehmen von zu verbrauchenden Last-Werten in W bzw. kW über Schnittstelle-Extern, um diese im folgenden zu steuern bzw. zu regeln
+6. Aufzeichnen aller Mess-, Steuer- & Regelwerte für eine nachgelagerte Visualisierung und Langzeitanalyse
+7. Visualisierung der Mess-, Steuer- & Regelwerte sowie der Langzeitanalyse
 
 # Hersteller
 Liste an Herstellern für Komponenten und Systeme.
