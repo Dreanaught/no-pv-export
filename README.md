@@ -26,4 +26,5 @@ Liste an Herstellern für Komponenten und Systeme.
 ## SmartFox
 * https://www.smartfox.at/smartfox-pro.html
 
-
+## Technische Alternative
+* https://www.ta.co.at/x2-energiemanagement/aton-power-to-heat/
