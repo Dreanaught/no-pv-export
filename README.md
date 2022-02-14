@@ -1,20 +1,21 @@
-# no-pv-export
-Design a System that helps in keeping pv export as low as possible by using it to power local demands
+# Kein-PV-Überschuss
+Ein System-Design das hilft PV-Einspeisung ins Netz so gering wie möglich zu halten, indem die Energie lokal verwendet wird
 
-# Preface
-The production-rate of pv-generators(pv-panels) is closely tied to the radiation of the sun and therefore more or less predictable. To use as mutch of the generated power and thus reduce the excess exported into the grid is the goal of this repository.
+# Vorwort
+Die Energie-Produktion von PV-Generatoren(PV-Panele) ist gebunden an die Sonneneinstrahlung und daher mehr oder weniger vorhersagbar. Den erzeugten Strom so viel wie möglich selbst zu nutzen und daher den Export in das Netz zu minimiern ist Ziel dieses Repositories.
 
-# Requirements
-To achieve the aforementioned goal of reducing return to grid, the following features have to be present. The order of occurence is not tied to the order of relevance
+# Anforderungen
+Um das zuvor genannte Ziel, die maxinale Reduktion des Exports, zu erreichen sind die folgenden Anforderungen zu erfüllen. Die Reihenfolge der Anforderungen spiegelt nicht deren Wichtigkeit wieder.
 
-1. Determining current production, use and return to grid
-2. Predict Short-term(1-minute range) and Mid-term(1-hour range) of return to grid
-3. Stear "fixed" size loads
-4. Regulate variable size loads
-5. Visualization of short-term values and long-term statistics
-
+1. Messen der aktuellen Produktion, des lokalen Verbrauchs und des Exports in das Netz
+2. Vorausberechnung des kurzzeit (1-Minute) und mittelzeits(1-Stunde) Export in das Netz
+3. Ansteuern "fester" Lasten (Ein/Aus)
+4. Regeln variabler Lasten (0-100%)
+5. Visualisierung der Mess-, Steuer- & Regelwerte aktuell und für die lanzeit Historie
 
 # Hersteller
+Liste an Herstellern für Komponenten und Systeme.
+
 ## Carlo Gavazzi
 * https://www.mouser.de/datasheet/2/1032/SSR_NRGC-2525226.pdf
 * https://www.gavazzionline.com/pdf/SSR_RG_CM_N.pdf
