@@ -22,6 +22,13 @@ Unabhängig von der jeweiligen Lösung sind einige Dinge immer zu erfüllen. Hie
 6. Aufzeichnen aller Mess-, Steuer- & Regelwerte für eine nachgelagerte Visualisierung und Langzeitanalyse
 7. Visualisierung der Mess-, Steuer- & Regelwerte sowie der Langzeitanalyse
 
+# PV-System sizing
+* https://globalsolaratlas.info/map?s=47.967586,12.596563&m=site&c=47.958548,12.526817,12
+
+# Monitoring von Verbrauch für statistische Auswertung
+* https://www.german-metering.de/auslesekopf-produkte.html
+
+
 # Hersteller
 Liste an Herstellern für Komponenten und Systeme.
 
