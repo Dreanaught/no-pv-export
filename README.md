@@ -29,3 +29,6 @@ Liste an Herstellern für Komponenten und Systeme.
 
 ## Technische Alternative
 * https://www.ta.co.at/x2-energiemanagement/aton-power-to-heat/
+
+## Victron Energy
+* https://www.victronenergy.com/upload/documents/MultiPlus-II_GX/MultiPlus-II_GX-de.pdf
