@@ -11,7 +11,8 @@ Um das zuvor genannte Ziel, die maxinale Reduktion des Exports, zu erreichen sin
 2. Vorausberechnung des kurzzeit (1-Minute) und mittelzeits(1-Stunde) Export in das Netz
 3. Ansteuern "fester" Lasten (Ein/Aus)
 4. Regeln variabler Lasten (0-100%)
-5. Visualisierung der Mess-, Steuer- & Regelwerte aktuell und für die lanzeit Historie
+5. Entgegennehmen von zu verbrauchenden Last-Werten in W bzw. kW über Schnittstelle-Extern
+6. Visualisierung der Mess-, Steuer- & Regelwerte aktuell und für die lanzeit Historie
 
 # Hersteller
 Liste an Herstellern für Komponenten und Systeme.
